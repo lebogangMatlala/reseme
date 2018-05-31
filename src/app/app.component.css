@@ -1,0 +1,126 @@
+body{
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0 auto;
+    background-image: url(../assets/images/photo.jpg);
+   
+  
+  }
+  div.container {
+     
+      box-shadow: 3px 3px 5px black;
+      margin-right: 15%;
+      margin-left: 15%;
+      background-color: rgb(121,142,162);
+      border-radius: 5px;
+      
+  }
+  
+  header, footer {
+      padding: 1em;
+      color: white;
+      
+      clear: left;
+      text-align: center;
+  }
+     
+  
+  .img-circle
+  {
+      border-radius: 40%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+   padding: 3px;
+     
+  }
+  
+  
+  .wrapper1{
+    background-color:rgb(228,221,213);
+    padding: 3%;
+    font-size: 17px;
+    width: 40%;
+    float:left;
+  
+  }
+  
+  #contact
+  {
+    text-align: center;
+  }
+  #skills
+  {
+    text-align: center;
+  }
+  #attributes{
+    text-align: center;
+   
+  }
+  
+  .wrapper2{
+    background-color: rgb(228,221,213);
+    text-align: left;padding-left: 3%;
+    font-size: 17px;
+    width: 60%;
+    float:left;
+    
+  }
+  
+  
+  #cv
+  {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+  }
+  
+  h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 25px;
+  }
+  ul.demo {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  #t2{
+    padding-left: 25px;
+    padding-right: 200px;
+  }
+  * {
+      box-sizing: border-box;
+  }
+  
+  
+  .column {
+      float: left;
+      width: 33%;
+     
+      font-size: 18px;
+      color: #000000;
+      
+  }
+  
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  @media screen and (max-width: 500px) {
+      .column {
+          width: 90%;
+          height:100%;
+      }
+  }
+  
